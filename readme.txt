@@ -1,2 +1,2 @@
 README
-A simple Connect4 game implementation. For now, I'm just using this to learn the basics of HTML/CSS/Javascript. Ultimately, I plan to use a Minimax algorithm with Alpha-Beta pruning to create a difficult AI player.
+smoran.dev
