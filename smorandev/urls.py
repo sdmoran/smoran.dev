@@ -5,5 +5,5 @@ from . import views
 app_name = 'smorandev'
 urlpatterns = [
     path('', views.StaticView.as_view(), name='index'),
-    path('projects/<str:pk>/', views.ProjectView.as_view(), name='project')
+    path('projects/<str:slug>/', views.ProjectView.as_view(), name='project')
 ]
