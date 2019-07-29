@@ -16,6 +16,10 @@ class ProjectView(generic.DetailView):
 
 class ProjectList(generic.ListView):
     template_name = 'smorandev/project-index.html'
+    context_object_name = 'project_list'
+
+    def get_queryset(self):
+        return Project.objects.all()
 
 def static(request):
     return render(request, 'smorandev/index.html', {})
