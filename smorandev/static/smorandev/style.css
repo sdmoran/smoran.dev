@@ -1,7 +1,18 @@
 body {
-    background: lightblue no-repeat;
+    background: lightgrey;
 }
 
-.header {
+.header-container {
+    background: orange;
+    border-radius: 0.25rem;
+    color: white;
     text-align: center;
+}
+
+.nav-link {
+    color: #fff2d9;
+}
+
+.nav > li > a:hover {
+    color: white;
 }
