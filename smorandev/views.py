@@ -14,5 +14,8 @@ class ProjectView(generic.DetailView):
     template_name = 'smorandev/project.html'
 
 
+class ProjectList(generic.ListView):
+    template_name = 'smorandev/project-index.html'
+
 def static(request):
     return render(request, 'smorandev/index.html', {})
