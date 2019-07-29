@@ -1,6 +1,49 @@
 {% extends 'smorandev/base.html' %}
 
 {% block content %}
-    <p style="text-align: center;">Welcome to my site!</p>
+    <br>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome!</h1>
+        <p class="lead">This is the personal website of Sam Moran.</p>
+            <hr>
+        <p>
+            I'm a Computer Science student at Worcester Polytechnic Institute. I created this website to learn web
+        technologies as well as showcase some projects that I've worked on. Take a look around!
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Here is a project!</h5>
+                        <p>Here is some information about a project. I think I will try to have these projects be
+                        randomly selected!</p>
+                        <a href="{% url "smorandev:project-index" %}" class="btn btn-primary">Go to project!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Here is a project!</h5>
+                        <p>Here is some information about a project. I think I will try to have these projects be
+                        randomly selected!</p>
+                        <a href="{% url "smorandev:project-index" %}" class="btn btn-primary">Go to project!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Here is a project!</h5>
+                        <p>Here is some information about a project. I think I will try to have these projects be
+                        randomly selected!</p>
+                        <a href="{% url "smorandev:project-index" %}" class="btn btn-primary">Go to project!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
-
