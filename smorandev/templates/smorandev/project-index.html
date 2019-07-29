@@ -6,7 +6,7 @@
     {% if project_list %}
         <div class="container">
             {% for project in project_list %}
-                    <a href="#">{{ project.project_name }}</a>
+                    <a href="{% url 'smorandev:project' project.slug %}">{{ project.project_name }}</a>
             {% endfor %}
         </div>
     {% endif %}
