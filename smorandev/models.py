@@ -5,6 +5,8 @@ from django.utils.text import slugify
 class Project(models.Model):
     project_name = models.CharField(primary_key=True, verbose_name="Name", max_length=100)
     project_detail = models.TextField(verbose_name="Description")
+    blurb = models.TextField(verbose_name="Blurb", default="Sample text")
+    technologies = models.TextField(default="Python, probably")
     slug = models.SlugField()
 
     # Override save method to provide slugified version of PK

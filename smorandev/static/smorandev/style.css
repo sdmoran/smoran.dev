@@ -16,3 +16,11 @@ body {
 .nav > li > a:hover {
     color: white;
 }
+
+.card-body {
+    background: #e9ecef;
+}
+
+.list-group-item {
+    background: #e9ecef;
+}
