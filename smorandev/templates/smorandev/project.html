@@ -1,7 +1,14 @@
-{% load static %}
+{% extends 'smorandev/base.html' %}
 
-<h1>{{ project.project_name }}</h1>
+{% block content %}
+    <br>
+    <div class="container">
+        <h1>{{ project.project_name }}</h1>
 
-<p>
-    {{ project.project_detail }}
-</p>
+        <p>
+            {{ project.project_detail }}
+        </p>
+        <h5>Technologies</h5>
+        <p>{{ project.technologies }}</p>
+    </div>
+{% endblock %}

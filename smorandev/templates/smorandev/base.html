@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="header-container">
+            <div class="nav-container">
                 <h1><a href="{% url 'smorandev:index' %}" style="color:white; text-decoration: none;">smoran.dev</a></h1>
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
@@ -29,5 +29,12 @@
         </div>
     {% block content %}
     {% endblock %}
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <p>smoran.dev</p>
+            </div>
+        </div>
+    </footer>
     </body>
 </html>

@@ -20,8 +20,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">{{ project.project_name }}</h5>
-                        <p>Here is some information about a project. I think I will try to have these projects be
-                        randomly selected!</p>
+                        <p>{{ project.blurb }}</p>
                         <a href="{% url "smorandev:project-index" %}" class="btn btn-primary">Go to project!</a>
                     </div>
                 </div>
