@@ -18,6 +18,7 @@
             {% for project in project_list %}
             <div class="col-sm">
                 <div class="card">
+                    <img src="{{ project.image }}" class="card-img-top mx-auto" alt="Project image">
                     <div class="card-body">
                         <h5 class="card-title">{{ project.project_name }}</h5>
                         <p>{{ project.blurb }}</p>
