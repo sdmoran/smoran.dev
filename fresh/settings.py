@@ -21,14 +21,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 file = open('.\\fresh\\secret_key.txt')
-data = file.read()
+data = file.read().strip()
 file.close()
 SECRET_KEY = data
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -118,6 +118,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+SESSION_COOKIE_SECURE = True
+X_FRAME_OPTIONS = 'DENY'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
