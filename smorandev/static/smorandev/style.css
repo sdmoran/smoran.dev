@@ -39,3 +39,20 @@ footer {
     color: white;
     background-color: orange;
 }
+
+.footer-container {
+    margin-top: 0.5rem;
+}
+
+.footer-container > p {
+    margin-bottom: 0.5rem;
+    text-align: left;
+    display: inline-block;
+}
+
+.footer-container > a{
+    margin-bottom: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
