@@ -1,6 +1,4 @@
-from django.http import HttpResponseRedirect
-from django.shortcuts import get_object_or_404, render
-from django.urls import reverse
+from django.http import FileResponse, Http404
 from django.views import generic
 import random
 
@@ -35,3 +33,11 @@ class ProjectList(generic.ListView):
 
     def get_queryset(self):
         return Project.objects.all()
+
+
+# Serves my resume as a PDF!
+def pdf_view(request):
+    try:
+        return FileResponse(open('smorandev\\static\\smorandev\\smoran_resume.pdf', 'rb'), content_type='application/pdf')
+    except FileNotFoundError:
+        raise Http404()
