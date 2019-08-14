@@ -41,6 +41,6 @@ class ProjectList(generic.ListView):
 # Serves my resume as a PDF!
 def pdf_view(request):
     try:
-        return FileResponse(open(settings.STATIC_ROOT + 'smoran_resume.pdf', 'rb'), content_type='application/pdf')
+        return FileResponse(open(os.path.join(settings.STATIC_ROOT + '/smoran_resume.pdf'), 'rb'), content_type='application/pdf')
     except FileNotFoundError:
         raise Http404()
