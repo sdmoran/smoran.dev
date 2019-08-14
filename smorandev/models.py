@@ -9,7 +9,7 @@ class Project(models.Model):
     blurb = models.TextField(verbose_name="Blurb", default="Sample text")
     technologies = models.TextField(default="Python, probably")
     image = models.TextField(verbose_name="Image Link", default=DEFAULT_LINK)
-    slug = models.SlugField()
+    slug = models.SlugField(default=slugify(project_name))
 
     # Override save method to provide slugified version of PK
     def save(self, *args, **kwargs):
