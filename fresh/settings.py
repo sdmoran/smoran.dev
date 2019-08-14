@@ -125,8 +125,8 @@ X_FRAME_OPTIONS = 'DENY'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/templates/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, './smorandev/static')
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
