@@ -1,6 +1,7 @@
 from django.http import FileResponse, Http404
 from django.views import generic
 from django.conf import settings
+from django.contrib.staticfiles.templatetags.staticfiles import static
 import random
 import os
 
@@ -41,6 +42,7 @@ class ProjectList(generic.ListView):
 # Serves my resume as a PDF!
 def pdf_view(request):
     try:
-        return FileResponse(open(os.path.join(settings.STATIC_ROOT + '/smoran_resume.pdf'), 'rb'), content_type='application/pdf')
+        url = static('smoran_resume.pdf')
+        return FileResponse(open(url, 'rb'), content_type='application/pdf')
     except FileNotFoundError:
         raise Http404()
