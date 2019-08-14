@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 file = open('.\\fresh\\secret_key.txt')
 data = file.read().strip()
 file.close()
-SECRET_KEY = data
+SECRET_KEY = "test"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
