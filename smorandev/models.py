@@ -10,7 +10,7 @@ class Project(models.Model):
     technologies = models.TextField(default="Python, probably")
     image = models.TextField(verbose_name="Image Link", default=DEFAULT_LINK)
     webgl_url = models.URLField(default=None, blank=True, null=True)  # URL for projects that use WebGL
-    slug = models.SlugField(default=slugify(project_name))
+    slug = models.SlugField(default="")
 
     #Override save method to provide slugified version of PK
     def save(self, *args, **kwargs):

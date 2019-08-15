@@ -10,7 +10,9 @@
         </p>
         <h5>Technologies</h5>
         <p>{{ project.technologies }}</p>
+        {# For webgl projects, will ultimately need to add canvas and assorted javascript #}
+        {% if project.webgl_url %}
+            <p>This is a webgl project</p>
+        {% endif %}
     </div>
-    {% block webgl %}
-    {% endblock %}
 {% endblock %}
