@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from smorandev import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('smorandev.urls'))
 ]
+
+handler404 = views.error_404

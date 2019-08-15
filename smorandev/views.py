@@ -1,4 +1,5 @@
 from django.http import FileResponse, Http404
+from django.shortcuts import render
 from django.views import generic
 from django.conf import settings
 from django.contrib.staticfiles.templatetags.staticfiles import static
@@ -46,3 +47,8 @@ def pdf_view(request):
         return FileResponse(open(url, 'rb'), content_type='application/pdf')
     except FileNotFoundError:
         raise Http404()
+
+
+def error_404(request, *args, **kwargs):
+    data = {}
+    return render(request, 'smorandev/404.html', data)
