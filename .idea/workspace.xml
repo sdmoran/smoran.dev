@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b7a48b-ba4f-468c-a242-7556e37e027f" name="Default Changelist" comment="Implemented custom 404 page">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smoran.dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smoran.dev.iml" afterDir="false" />
+    <list default="true" id="f6b7a48b-ba4f-468c-a242-7556e37e027f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smorandev/static/smorandev/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/static/smorandev/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smorandev/templates/smorandev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/templates/smorandev/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fresh/production_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="31" lean-forward="true" selection-end-line="134" selection-end-column="40" />
+            <state relative-caret-position="306">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -74,20 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+            <state relative-caret-position="544">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -125,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" selection-start-line="3" selection-start-column="3" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -172,21 +169,22 @@
         <option value="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" />
         <option value="$PROJECT_DIR$/fresh/deployment_settings.py" />
         <option value="$PROJECT_DIR$/fresh/development_settings.py" />
-        <option value="$PROJECT_DIR$/fresh/production_settings.py" />
         <option value="$PROJECT_DIR$/fresh/settings.py" />
         <option value="$PROJECT_DIR$/fresh/urls.py" />
         <option value="$PROJECT_DIR$/smorandev/views.py" />
         <option value="$PROJECT_DIR$/smorandev/templates/smorandev/404.html" />
         <option value="$PROJECT_DIR$/fresh/dev_settings.py" />
         <option value="$PROJECT_DIR$/smorandev/static/smorandev/style.css" />
+        <option value="$PROJECT_DIR$/fresh/production_settings.py" />
+        <option value="$PROJECT_DIR$/smorandev/templates/smorandev/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="437" />
-    <option name="y" value="-24" />
-    <option name="width" value="1400" />
-    <option name="height" value="1220" />
+    <option name="x" value="565" />
+    <option name="y" value="250" />
+    <option name="width" value="977" />
+    <option name="height" value="887" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -310,7 +308,7 @@
       <updated>1565742052676</updated>
       <workItem from="1565742054252" duration="5209000" />
       <workItem from="1565752233349" duration="16872000" />
-      <workItem from="1566241974850" duration="1825000" />
+      <workItem from="1566241974850" duration="3671000" />
     </task>
     <task id="LOCAL-00001" summary="Added/modified files for deployment on Heroku">
       <created>1565742421206</created>
@@ -340,16 +338,31 @@
       <option name="project" value="LOCAL" />
       <updated>1565849271131</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Slightly tweaked style.css to improve project images">
+      <created>1566259166276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566259166277</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated way secret key is handled">
+      <created>1566263692993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566263692994</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23906000" />
+    <option name="totallyTimeSpent" value="25752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,7 +376,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28763184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28763184" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -380,7 +393,9 @@
     <MESSAGE value="Settled on how to do WebGL projects" />
     <MESSAGE value="Added Whitenoise back" />
     <MESSAGE value="Broke up settings into dev (local) and production (live)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Broke up settings into dev (local) and production (live)" />
+    <MESSAGE value="Slightly tweaked style.css to improve project images" />
+    <MESSAGE value="Updated way secret key is handled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated way secret key is handled" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/management/commands/runserver.py" />
@@ -514,20 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" selection-start-line="3" selection-start-column="3" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old-site/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -542,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fresh/production_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="31" lean-forward="true" selection-end-line="134" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fresh/dev_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -556,17 +550,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/index.html">
+    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        <state relative-caret-position="270">
+          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/style.css">
+    <entry file="file://$PROJECT_DIR$/fresh/production_settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state relative-caret-position="306">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

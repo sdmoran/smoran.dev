@@ -22,7 +22,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ project.project_name }}</h5>
                         <p>{{ project.blurb }}</p>
-                        <a href="{% url "smorandev:project-index" %}" class="btn btn-primary">Go to project!</a>
+                        <a href="{% url "smorandev:project" project.slug %}" class="btn btn-primary">Go to project!</a>
                     </div>
                 </div>
             </div>
