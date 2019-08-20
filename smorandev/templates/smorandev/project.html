@@ -3,16 +3,26 @@
 {% block content %}
     <br>
     <div class="container">
-        <h1>{{ project.project_name }}</h1>
-
-        <p>
-            {{ project.project_detail }}
-        </p>
-        <h5>Technologies</h5>
-        <p>{{ project.technologies }}</p>
-        {# For webgl projects, will ultimately need to add canvas and assorted javascript #}
-        {% if project.webgl_url %}
-            <p>This is a webgl project</p>
-        {% endif %}
+        <div class="col sm" style="color: black;">
+            <h1>{{ project.project_name }}</h1>
+            <p>
+                {{ project.project_detail }}
+            </p>
+            <h5>Technologies</h5>
+            <p>{{ project.technologies }}</p>
+            <h5>Images</h5>
+            <div class="row">
+                 <div class="col-md-4 mx-auto">
+                    <div class="card">
+                        <img src="{{ project.image }}" class="card-img-top mx-auto" alt="Project image">
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            {# For webgl projects, will ultimately need to add canvas and assorted javascript #}
+            {% if project.webgl_url %}
+                <p>This is a webgl project</p>
+            {% endif %}
+        </div>
     </div>
 {% endblock %}
