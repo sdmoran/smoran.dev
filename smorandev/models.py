@@ -9,6 +9,7 @@ class Project(models.Model):
     blurb = models.TextField(verbose_name="Blurb", default="Sample text")
     technologies = models.TextField(default="Python, probably")
     image = models.TextField(verbose_name="Image Link", default=DEFAULT_LINK)
+    image_size = models.TextField(default="col-md-4")
     webgl_url = models.URLField(default=None, blank=True, null=True)  # URL for projects that use WebGL
     slug = models.SlugField(default="")
 
