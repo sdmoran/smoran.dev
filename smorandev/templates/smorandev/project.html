@@ -6,7 +6,7 @@
         <div class="col sm" style="color: black;">
             <h1>{{ project.project_name }}</h1>
             <p>
-                {{ project.project_detail }}
+                {{ project.project_detail|linebreaks }}
             </p>
             <h5>Technologies</h5>
             <p>{{ project.technologies }}</p>
