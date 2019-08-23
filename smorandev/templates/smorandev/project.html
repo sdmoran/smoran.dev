@@ -1,4 +1,5 @@
 {% extends 'smorandev/base.html' %}
+{% load static %}
 
 {% block content %}
     <br>
@@ -17,11 +18,23 @@
                         <img src="{{ project.image }}" class="card-img-top mx-auto" alt="Project image">
                     </div>
                 </div>
-                <div class="clearfix"></div>
             </div>
-            {# For webgl projects, will ultimately need to add canvas and assorted javascript #}
             {% if project.webgl_url %}
-                <p>This is a webgl project</p>
+                <script src="{% static 'smorandev/webgl/lib/webgl-utils.js' %}"></script>
+                <script src="{% static 'smorandev/webgl/lib/initShaders.js'%}"></script>
+                <script src="{% static 'smorandev/webgl/lib/mv.js'%}"></script>
+{#                Load vertex shader from the project object #}
+                <script id="vshader" type="x-shader/x-vertex">
+                {{ project.webgl_vshader }}
+                </script>
+                <script id="fshader" type="x-shader/x-fragment">
+                {{ project.webgl_fshader }}</script>
+                <div id="webgl-container" onload="main()">
+                    <canvas class="canvas" id="webgl" width="400" height="400" style="border:1px solid">
+                        Please use a browser that supports the "canvas" tag.
+                    </canvas>
+                </div>
+                <script src="{% static 'smorandev/webgl/project1/project1.js' %}"></script>
             {% endif %}
         </div>
     </div>

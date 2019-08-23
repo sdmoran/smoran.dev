@@ -11,6 +11,8 @@ class Project(models.Model):
     image = models.TextField(verbose_name="Image Link", default=DEFAULT_LINK)
     image_size = models.TextField(default="col-md-4")
     webgl_url = models.URLField(default=None, blank=True, null=True)  # URL for projects that use WebGL
+    webgl_vshader = models.TextField(verbose_name="Vertex Shader", default=None, blank=True, null=True)
+    webgl_fshader = models.TextField(verbose_name="Fragment Shader", default=None, blank=True, null=True)
     slug = models.SlugField(default="")
 
     #Override save method to provide slugified version of PK
