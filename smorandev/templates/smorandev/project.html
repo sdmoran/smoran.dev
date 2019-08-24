@@ -11,15 +11,8 @@
             </p>
             <h5>Technologies</h5>
             <p>{{ project.technologies }}</p>
-            <h5>Images</h5>
-            <div class="row">
-                 <div class="{{ project.image_size }} mx-auto">
-                    <div class="card">
-                        <img src="{{ project.image }}" class="card-img-top mx-auto" alt="Project image">
-                    </div>
-                </div>
-            </div>
             {% if project.webgl_url %}
+                <h5>WebGL Canvas</h5>
                 <script src="{% static 'smorandev/webgl/lib/webgl-utils.js' %}"></script>
                 <script src="{% static 'smorandev/webgl/lib/initShaders.js'%}"></script>
                 <script src="{% static 'smorandev/webgl/lib/mv.js'%}"></script>
@@ -35,6 +28,15 @@
                     </canvas>
                 </div>
                 <script src="{% static 'smorandev/webgl/project1/project1.js' %}"></script>
+            {% else %}
+            <h5>Images</h5>
+            <div class="row">
+                 <div class="{{ project.image_size }} mx-auto">
+                    <div class="card">
+                        <img src="{{ project.image }}" class="card-img-top mx-auto" alt="Project image">
+                    </div>
+                </div>
+            </div>
             {% endif %}
         </div>
     </div>
