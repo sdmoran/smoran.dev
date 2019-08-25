@@ -11,7 +11,7 @@
             </p>
             <h5>Technologies</h5>
             <p>{{ project.technologies }}</p>
-            {% if project.webgl_url %}
+            {% if project.webgl_path %}
                 <h5>WebGL Canvas</h5>
                 <script src="{% static 'smorandev/webgl/lib/webgl-utils.js' %}"></script>
                 <script src="{% static 'smorandev/webgl/lib/initShaders.js'%}"></script>
@@ -27,7 +27,7 @@
                         Please use a browser that supports the "canvas" tag.
                     </canvas>
                 </div>
-                <script src="{% static 'smorandev/webgl/project1/project1.js' %}"></script>
+                <script src="{% static project.webgl_path %}"></script>
             {% else %}
             <h5>Images</h5>
             <div class="row">

@@ -37,6 +37,14 @@ function main()
     input.onchange = function(){openFile(event)};
     fileContainer.appendChild(input);
 
+    var colorlabel = document.createElement("h4");
+    colorlabel.innerHTML = "Current color:";
+    var currentcolor = document.createElement("p");
+    currentcolor.innerHTML = "Black";
+    currentcolor.id = "currentColor";
+    container.appendChild(colorlabel);
+    container.appendChild(currentcolor);
+
     // Handler for changing mode or color when user presses corresponding key
     window.onkeypress = function(event) {
         var modeText = document.getElementById('modeText');
