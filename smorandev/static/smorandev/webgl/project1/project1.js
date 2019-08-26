@@ -37,13 +37,11 @@ function main()
     input.onchange = function(){openFile(event)};
     fileContainer.appendChild(input);
 
-    var colorlabel = document.createElement("h4");
-    colorlabel.innerHTML = "Current color:";
-    var currentcolor = document.createElement("p");
-    currentcolor.innerHTML = "Black";
-    currentcolor.id = "currentColor";
-    container.appendChild(colorlabel);
-    container.appendChild(currentcolor);
+
+    var modeText = document.createElement("h4");
+    modeText.id = 'modeText';
+    modeText.innerHTML = "File Mode";
+    container.appendChild(modeText);
 
     // Handler for changing mode or color when user presses corresponding key
     window.onkeypress = function(event) {
@@ -67,7 +65,6 @@ function main()
                 // Increment the color index
                 colorIndex = (colorIndex + 1) % 4;
                 var currentColor = document.getElementById("currentColor");
-                currentColor.innerHTML = colorNames[colorIndex];
                 draw(segments, extents);
                 break;
             default:
@@ -352,9 +349,6 @@ function toggleMode(mode) {
 
         // Removes file input button from page
         fileDiv.removeChild(document.getElementById("fileInput"));
-
-        // Removes printed contents of file from page
-        document.getElementById('output').innerText = null;
 
         // Adds button to download file
         var downloadBtn = document.createElement("input");
