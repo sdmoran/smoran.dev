@@ -16,6 +16,11 @@ var extents;
 // Variable indicating whether or not the 'B' key is currently held down.
 var bdown = false;
 
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.4.1.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+
 // Sets WebGL things up
 main();
 function main()
@@ -87,6 +92,25 @@ function openFile(event) {
     if(input.files[0]) {
         reader.readAsText(input.files[0]);
     }
+}
+
+function loadFileFromServer(event, path) {
+    var input = event.target;
+    console.log("PATH: " + path);
+    path = path.split('/');
+    path.pop();
+    path.push('datfiles');
+    path.push(input[input.selectedIndex].innerHTML);
+    path = path.join('/');
+    console.log("PATH: " + path);
+
+    $.ajax({
+        url: path,
+        success: function(data) {
+            console.log(data);
+            parseCoords(data);
+        }
+    })
 }
 
 // Parses the coordinates from the given text.

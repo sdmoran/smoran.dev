@@ -32,12 +32,13 @@
 {#              This is REALLY COOL! Gets list of dat files in directory for webgl project. #}
                 {% get_datfiles project.webgl_path as dat %}
                 {% if dat %}
-                    <select>
+                    <select onchange="loadFileFromServer(event, '{% static project.webgl_path %}')" id="files">
                         {% for d in dat %}
                             <option>{{ d }}</option>
                         {% endfor %}
                     </select>
                 {% endif %}
+            {% else %}
             <h5>Images</h5>
             <div class="row">
                  <div class="{{ project.image_size }} mx-auto">
