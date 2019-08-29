@@ -1,5 +1,6 @@
 {% extends 'smorandev/base.html' %}
 {% load static %}
+{% load dat_files %}
 
 {% block content %}
     <br>
@@ -28,7 +29,15 @@
                     </canvas>
                 </div>
                 <script src="{% static project.webgl_path %}"></script>
-            {% else %}
+{#              This is REALLY COOL! Gets list of dat files in directory for webgl project. #}
+                {% get_datfiles project.webgl_path as dat %}
+                {% if dat %}
+                    <select>
+                        {% for d in dat %}
+                            <option>{{ d }}</option>
+                        {% endfor %}
+                    </select>
+                {% endif %}
             <h5>Images</h5>
             <div class="row">
                  <div class="{{ project.image_size }} mx-auto">
