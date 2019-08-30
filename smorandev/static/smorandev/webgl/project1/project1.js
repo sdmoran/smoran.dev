@@ -94,15 +94,14 @@ function openFile(event) {
     }
 }
 
+// Loads files directly from server with fancy jQuery.
 function loadFileFromServer(event, path) {
     var input = event.target;
-    console.log("PATH: " + path);
     path = path.split('/');
     path.pop();
     path.push('datfiles');
     path.push(input[input.selectedIndex].innerHTML);
     path = path.join('/');
-    console.log("PATH: " + path);
 
     $.ajax({
         url: path,
