@@ -21,21 +21,17 @@ script.src = 'https://code.jquery.com/jquery-3.4.1.js';
 script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
-// Sets WebGL things up
-main();
+
 function main()
 {
     // Container div for webgl
     var container = document.getElementById("webgl-container");
 
     // Container for file upload button
-    var fileContainer = document.createElement("div");
-    fileContainer = container.appendChild(fileContainer);
-    fileContainer.id = "fileContainer";
+    var fileContainer = document.getElementById("fileContainer");
 
     // File upload button
     var input = document.createElement("input");
-    input = fileContainer.appendChild(input);
     input.id = "fileInput";
     input.type = "file";
     input.accept = ".dat";
@@ -46,7 +42,7 @@ function main()
     var modeText = document.createElement("h4");
     modeText.id = 'modeText';
     modeText.innerHTML = "File Mode";
-    container.appendChild(modeText);
+    container.prepend(modeText);
 
     // Handler for changing mode or color when user presses corresponding key
     window.onkeypress = function(event) {
@@ -96,13 +92,11 @@ function openFile(event) {
 
 function loadFileFromServer(event, path) {
     var input = event.target;
-    console.log("PATH: " + path);
     path = path.split('/');
     path.pop();
     path.push('datfiles');
     path.push(input[input.selectedIndex].innerHTML);
     path = path.join('/');
-    console.log("PATH: " + path);
 
     $.ajax({
         url: path,
@@ -385,9 +379,9 @@ function toggleMode(mode) {
         var fileName = document.createElement("input");
         fileName.type = "text";
         fileName.id = "fileName";
-        // Name defaults to year + month + day + time in milliseconds to ensure unique, useful names
+        // Name defaults to year + month + day + time in minutes to ensure unique, useful names
         var d = new Date();
-        fileName.value = ("drawing-" + d.getFullYear() + "-" + (d.getMonth() + 1) % 12 + "-" + d.getDate() + d.getTime()).toString();
+        fileName.value = ("drawing-" + d.getFullYear() + "-" + (d.getMonth() + 1) % 12 + "-" + d.getDate() + d.getMinutes()).toString();
         fileDiv.appendChild(fileName);
 
         // Adds listener to button in order to download file
