@@ -1,1 +1,1 @@
-web: gunicorn fresh.wsgi --log-file -
+web: gunicorn fresh.wsgi --log-file - --log-level debug
