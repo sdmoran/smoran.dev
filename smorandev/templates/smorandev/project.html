@@ -12,33 +12,33 @@
             </p>
             <h5>Technologies</h5>
             <p>{{ project.technologies }}</p>
-{#            {% if project.webgl_path %}#}
-{#                <h5>WebGL Canvas</h5>#}
-{#                <script src="{% static 'smorandev/webgl/lib/webgl-utils.js' %}"></script>#}
-{#                <script src="{% static 'smorandev/webgl/lib/initShaders.js'%}"></script>#}
-{#                <script src="{% static 'smorandev/webgl/lib/mv.js'%}"></script>#}
+            {% if project.webgl_path %}
+                <h5>WebGL Canvas</h5>
+                <script src="{% static 'smorandev/webgl/lib/webgl-utils.js' %}"></script>
+                <script src="{% static 'smorandev/webgl/lib/initShaders.js'%}"></script>
+                <script src="{% static 'smorandev/webgl/lib/mv.js'%}"></script>
 {#                Load vertex shader from the project object #}
-{#                <script id="vshader" type="x-shader/x-vertex">#}
-{#                {{ project.webgl_vshader }}#}
-{#                </script>#}
-{#                <script id="fshader" type="x-shader/x-fragment">#}
-{#                {{ project.webgl_fshader }}</script>#}
-{#                <div id="webgl-container" onload="main()">#}
-{#                    <canvas class="canvas" id="webgl" width="400" height="400" style="border:1px solid">#}
-{#                        Please use a browser that supports the "canvas" tag.#}
-{#                    </canvas>#}
-{#                </div>#}
-{#                <script src="{% static project.webgl_path %}"></script>#}
+                <script id="vshader" type="x-shader/x-vertex">
+                {{ project.webgl_vshader }}
+                </script>
+                <script id="fshader" type="x-shader/x-fragment">
+                {{ project.webgl_fshader }}</script>
+                <div id="webgl-container" onload="main()">
+                    <canvas class="canvas" id="webgl" width="400" height="400" style="border:1px solid">
+                        Please use a browser that supports the "canvas" tag.
+                    </canvas>
+                </div>
+                <script src="{% static project.webgl_path %}"></script>
 {#              This is REALLY COOL! Gets list of dat files in directory for webgl project. #}
-{#                {% get_datfiles project.webgl_path as dat %}#}
-{#                {% if dat %}#}
-{#                    <select onchange="loadFileFromServer(event, '{% static project.webgl_path %}')" id="files">#}
-{#                        {% for d in dat %}#}
-{#                            <option>{{ d }}</option>#}
-{#                        {% endfor %}#}
-{#                    </select>#}
-{#                {% endif %}#}
-{#            {% else %}#}
+                {% get_datfiles project.webgl_path as dat %}
+                {% if dat %}
+                    <select onchange="loadFileFromServer(event, '{% static project.webgl_path %}')" id="files">
+                        {% for d in dat %}
+                            <option>{{ d }}</option>
+                        {% endfor %}
+                    </select>
+                {% endif %}
+            {% else %}
             <h5>Images</h5>
             <div class="row">
                  <div class="{{ project.image_size }} mx-auto">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-{#            {% endif %}#}
+            {% endif %}
         </div>
     </div>
 {% endblock %}

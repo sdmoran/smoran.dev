@@ -13,11 +13,8 @@ def get_datfiles(path):
     try:
         mainpath = settings.STATIC_ROOT
         mainpath = mainpath.replace('./', '').replace('\\', '/')
-        path = path.split('/')[1:]
-        path = '/'.join(path)
         path = os.path.relpath(os.path.dirname(path))   # Gives us the directory that the project JS file is in
         webgl = (os.path.join(mainpath, path, './datfiles'))
         return os.listdir(webgl.replace('..\\', '').replace('\\', '/'))
-
     except FileNotFoundError:
         return False
