@@ -15,9 +15,9 @@
             {% if project.webgl_path %}
                     <h5>WebGL</h5>
                     <div class="d-flex justify-content-center">
-                        <script src="{% static '/smorandev/webgl/lib/webgl-utils.js' %}"></script>
-                        <script src="{% static '/smorandev/webgl/lib/initShaders.js'%}"></script>
-                        <script src="{% static '/smorandev/webgl/lib/mv.js'%}"></script>
+                        <script src="{% static 'smorandev/webgl/lib/webgl-utils.js' %}"></script>
+                        <script src="{% static 'smorandev/webgl/lib/initShaders.js'%}"></script>
+                        <script src="{% static 'smorandev/webgl/lib/MV.js'%}"></script>
         {#                Load vertex shader from the project object #}
                         <script id="vshader" type="x-shader/x-vertex">
                         {{ project.webgl_vshader }}
