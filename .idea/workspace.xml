@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6b7a48b-ba4f-468c-a242-7556e37e027f" name="Default Changelist" comment="">
+    <list default="true" id="f6b7a48b-ba4f-468c-a242-7556e37e027f" name="Default Changelist" comment="Fix path on WebGL library files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smorandev/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smorandev/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smorandev/templatetags/dat_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/templatetags/dat_files.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +50,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="85">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding>
+                <element signature="e#1175#1217#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
+        <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="131">
+              <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -73,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smorandev/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="153">
               <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -83,13 +81,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smorandev/models.py">
+        <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/lib/MV.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/lib/webgl-utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -97,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smorandev/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="392">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -109,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="107" column="18" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+            <state relative-caret-position="361">
+              <caret line="188" column="5" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -153,6 +170,13 @@
       <find>we made it</find>
       <find>todo</find>
       <find>innerH</find>
+      <find>fileContainer.append</find>
+      <find>loadFileFromServer</find>
+      <find>fileContainer</find>
+      <find>onload</find>
+      <find>file mode</find>
+      <find>container</find>
+      <find>resume</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,16 +210,16 @@
         <option value="$PROJECT_DIR$/fresh/dev_settings.py" />
         <option value="$PROJECT_DIR$/smorandev/models.py" />
         <option value="$PROJECT_DIR$/smorandev/admin.py" />
-        <option value="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js" />
         <option value="$PROJECT_DIR$/smorandev/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/smorandev/templatetags/load_dat.py" />
         <option value="$PROJECT_DIR$/smorandev/templatetags/dat_files.py" />
+        <option value="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js" />
         <option value="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="216" />
     <option name="y" value="-9" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -226,6 +250,12 @@
               <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="smoran.dev" type="462c0819:PsiDirectoryNode" />
               <item name="smorandev" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smoran.dev" type="462c0819:PsiDirectoryNode" />
+              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,15 +272,6 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="smorandev" type="462c0819:PsiDirectoryNode" />
               <item name="webgl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smoran.dev" type="462c0819:PsiDirectoryNode" />
-              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
-              <item name="webgl" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
@@ -477,11 +498,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566860508659</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Revert &quot;Moved WebGL data for WebGL projects to separate model&quot;&#10;-- Turns out this was a bad idea. Made everything needlessly&#10;more complicated without any real improvements. Django Admin&#10;form not easily customizable enough to display WebGL data the&#10;way I wanted and splitting up models made them harder to use.&#10;Decided it wasn't worth the effort for a minor improvement on&#10;something that only I will ever see.">
+      <created>1567250690513</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567250690513</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated styling for elements on WebGL projects">
+      <created>1567253819493</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1567253819493</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48532000" />
+    <option name="totallyTimeSpent" value="52814000" />
   </component>
   <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
@@ -496,7 +531,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -510,7 +545,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -599,7 +634,9 @@
     <MESSAGE value="Fixed paths of WebGL projects and Project 1 colors" />
     <MESSAGE value="Update migrations to deploy to production" />
     <MESSAGE value="Bug fixes for WebGL Project 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes for WebGL Project 1" />
+    <MESSAGE value="Revert &quot;Moved WebGL data for WebGL projects to separate model&quot;&#10;-- Turns out this was a bad idea. Made everything needlessly&#10;more complicated without any real improvements. Django Admin&#10;form not easily customizable enough to display WebGL data the&#10;way I wanted and splitting up models made them harder to use.&#10;Decided it wasn't worth the effort for a minor improvement on&#10;something that only I will ever see." />
+    <MESSAGE value="Updated styling for elements on WebGL projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated styling for elements on WebGL projects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/management/commands/runserver.py" />
@@ -680,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fresh/dev_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -749,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smorandev/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -766,23 +786,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -799,6 +802,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/migrations/0011_auto_20190830_1606.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/migrations/0012_auto_20190830_1641.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smorandev/templatetags/dat_files.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -809,17 +827,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/lib/webgl-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="107" column="18" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        <state relative-caret-position="361">
+          <caret line="188" column="5" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/lib/MV.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="85">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#1175#1217#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
