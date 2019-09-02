@@ -7,6 +7,9 @@
     <div class="container">
         <div class="col sm" style="color: black;">
             <h1>{{ project.project_name }}</h1>
+            {% if project.github %}
+                <h6 class="small lighter-text"><a href="{{ project.github }}">GitHub Repository</a></h6>
+            {% endif %}
             <p>
                 {{ project.project_detail|linebreaks }}
             </p>

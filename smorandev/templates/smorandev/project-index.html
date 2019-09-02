@@ -5,7 +5,8 @@
     <div class="container">
         <div class="col sm" style="color: black;">
             <h1 style="text-align: left;">Projects</h1>
-            <p>Here's a list of some of the projects that I've done!</p>
+            <p>Here's a list of some of the projects that I've done! Each project has a list of some of the languages
+                and technologies I used.</p>
         </div>
     {% if project_list %}
             <ul class="list-group">
@@ -14,9 +15,9 @@
                 <div class="row">
                     <div class="col sm">
                         <h3><a href="{% url 'smorandev:project' project.slug %}">{{ project.project_name }}</a></h3>
-                        <span>Description: {{ project.blurb }}</span>
+                        <span>{{ project.blurb }}</span>
                         <br>
-                        <span>Technologies: {{ project.technologies }}</span>
+                        <span class="font-weight-light">{{ project.technologies }}</span>
                     </div>
                 </div>
             </li>
