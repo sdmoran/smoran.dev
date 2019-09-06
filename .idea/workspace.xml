@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b7a48b-ba4f-468c-a242-7556e37e027f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/airplane.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/ant.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/apple.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/balance.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/beethoven.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/big_atc.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/big_dodge.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/big_porsche.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/big_spider.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/canstick.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/chopper.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/cow.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/cube.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/dolphins.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/egret.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/f16.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/footbones.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/fracttree.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/galleon.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/hammerhead.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/helix.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/hind.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/kerolamp.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/ketchup.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/mug.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/part.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/pickup_big.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/pump.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/pumpa_tb.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/sandal.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/saratoga.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/scissors.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/shark.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/steeringweel.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/stratocaster.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/street_lamp.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/teapot.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/tennis_shoe.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/tommygun.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/trashcan.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/turbine.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/urn2.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/walkman.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/weathervane.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js" beforeDir="false" afterPath="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +35,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="40" column="75" lean-forward="true" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+            <state relative-caret-position="357">
+              <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8415">
-              <caret line="495" column="1" selection-start-line="495" selection-start-column="1" selection-end-line="495" selection-end-column="1" />
+            <state relative-caret-position="303">
+              <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -112,15 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project-index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -210,6 +164,11 @@
       <find>MV.js</find>
       <find>static</find>
       <find>container</find>
+      <find>parseCoords</find>
+      <find>extents</find>
+      <find>parseInput</find>
+      <find>extents[0</find>
+      <find>handleTranslation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -248,15 +207,16 @@
         <option value="$PROJECT_DIR$/smorandev/models.py" />
         <option value="$PROJECT_DIR$/smorandev/admin.py" />
         <option value="$PROJECT_DIR$/smorandev/templates/smorandev/base.html" />
-        <option value="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js" />
         <option value="$PROJECT_DIR$/smorandev/templates/smorandev/project.html" />
+        <option value="$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="877" />
+    <option name="y" value="-30" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -301,6 +261,24 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="smorandev" type="462c0819:PsiDirectoryNode" />
               <item name="webgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smoran.dev" type="462c0819:PsiDirectoryNode" />
+              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
+              <item name="webgl" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smoran.dev" type="462c0819:PsiDirectoryNode" />
+              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="smorandev" type="462c0819:PsiDirectoryNode" />
+              <item name="webgl" type="462c0819:PsiDirectoryNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smoran.dev" type="b2602c69:ProjectViewProjectNode" />
@@ -412,7 +390,7 @@
       <workItem from="1566987863452" duration="565000" />
       <workItem from="1567100615768" duration="5367000" />
       <workItem from="1567450229655" duration="5264000" />
-      <workItem from="1567799750282" duration="1133000" />
+      <workItem from="1567799750282" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="Added/modified files for deployment on Heroku">
       <created>1565742421206</created>
@@ -596,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567454466962</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added files for WebGL Project 2 - not quite functional yet">
+      <created>1567811604558</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1567811604558</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63563000" />
+    <option name="totallyTimeSpent" value="64176000" />
   </component>
   <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
@@ -615,7 +600,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2758389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33489934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -715,7 +700,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Settled on how to do WebGL projects" />
     <MESSAGE value="Added Whitenoise back" />
     <MESSAGE value="Broke up settings into dev (local) and production (live)" />
     <MESSAGE value="Slightly tweaked style.css to improve project images" />
@@ -740,7 +724,8 @@
     <MESSAGE value="Tweaked project index template and added project-specific GitHub link to project detail template" />
     <MESSAGE value="Added GitHub link to project model and fixed GitHub spelling" />
     <MESSAGE value="Added migration to git for Heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added migration to git for Heroku" />
+    <MESSAGE value="Added files for WebGL Project 2 - not quite functional yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files for WebGL Project 2 - not quite functional yet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/management/commands/runserver.py" />
@@ -875,13 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -974,16 +952,6 @@
     <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/datfiles/airplane.ply">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8415">
-          <caret line="495" column="1" selection-start-line="495" selection-start-column="1" selection-end-line="495" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/webgl-project.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -993,8 +961,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smorandev/templates/smorandev/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="75" lean-forward="true" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        <state relative-caret-position="357">
+          <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project1/project1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smorandev/static/smorandev/webgl/project2/project2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="190" column="36" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

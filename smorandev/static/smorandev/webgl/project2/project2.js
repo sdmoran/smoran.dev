@@ -39,6 +39,12 @@ var expanding;
 var tickCount;
 var ticksPerCycle;
 
+// Get jQuery
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.4.1.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+
 // Resets globals to default values. While by convention, main() is typically top of file, globals are also usually at
 // the top and I feel it makes sense to have this method here as default values are defined herein.
 function resetGlobals() {
@@ -77,8 +83,26 @@ function resetGlobals() {
     ticksPerCycle = 20;
 }
 
+function loadFileFromServer(event, path) {
+    var input = event.target;
+    path = path.split('/');
+    path.pop();
+    path.push('datfiles');
+    path.push(input[input.selectedIndex].innerHTML);
+    path = path.join('/');
+
+    $.ajax({
+        url: path,
+        success: function(data) {
+            console.log(data);
+            parseInput(data);
+        }
+    })
+}
+
 function main()
 {
+    resetGlobals();
     // Handler for changing mode or color when user presses corresponding key
     window.onkeypress = function(event) {
         switch(event.key) {
@@ -163,6 +187,9 @@ function handleTranslation(event) {
                 magnitudeIndex = 2;
                 translateMagnitude = -mag;
                 break;
+            default:
+                translating = false;
+                break;
         }
     }
 }
@@ -182,10 +209,6 @@ function parseInput(text) {
         alert("Not a .ply file!");
         return;
     }
-
-    // Displays contents of file on page
-    var output = document.getElementById('output');
-    output.innerText = text;
 
     // Loop through header
     while(!lines[i].includes("end_header")) {
