@@ -37,7 +37,7 @@
         {#              This is REALLY COOL! Gets list of dat files in directory for webgl project. #}
                         {% get_datfiles project.webgl_path as dat %}
                         {% if dat %}
-                                <p class="text-center">Choose a premade .dat file to display, or upload your own!</p>
+                                <p class="text-center">Choose a premade file to display, or upload your own!</p>
                                 <div class="d-flex justify-content-center">
                                     <select class="d-flex justify-content-center" onchange="loadFileFromServer(event, '{% static project.webgl_path %}')" id="files">
                                         {% for d in dat %}
