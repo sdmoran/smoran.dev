@@ -38,7 +38,6 @@ function main()
     input.onchange = function(){openFile(event)};
     fileContainer.appendChild(input);
 
-
     var modeText = document.createElement("h4");
     modeText.id = 'modeText';
     modeText.innerHTML = "File Mode";
@@ -340,6 +339,9 @@ function toggleMode(mode) {
         fileInput.accept = ".dat";
         fileInput.onchange = function(){openFile(event)};
         fileDiv.appendChild(fileInput);
+
+        // Show selector for files from server. These are BOOTSTRAP CSS VALUES will not work w/o bootstrap
+        $("#serverFiles").removeClass('d-none').addClass('d-flex');
     }
     else if(mode === "draw" && document.getElementById("fileInput")) {
         // Clears canvas
@@ -364,6 +366,9 @@ function toggleMode(mode) {
 
         // Binds onclick handler to canvas elements
         canvas.onclick = function(e){drawModeHandler(canvas, e)};
+
+        // Hide selector for files from server. These are BOOTSTRAP CSS VALUES will not work w/o bootstrap
+        $("#serverFiles").removeClass('d-flex').addClass('d-none');
 
         // Removes file input button from page
         fileDiv.removeChild(document.getElementById("fileInput"));

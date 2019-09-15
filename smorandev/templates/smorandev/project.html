@@ -38,8 +38,8 @@
                         {% get_datfiles project.webgl_path as dat %}
                         {% if dat %}
                                 <p class="text-center">Choose a premade file to display, or upload your own!</p>
-                                <div class="d-flex justify-content-center">
-                                    <select class="d-flex justify-content-center" onchange="loadFileFromServer(event, '{% static project.webgl_path %}')" id="files">
+                                <div class="d-flex justify-content-center" id="serverFiles">
+                                    <select class="d-flex justify-content-center" onchange="loadFileFromServer(event, '{% static project.webgl_path %}')">
                                         {% for d in dat %}
                                             <option>{{ d }}</option>
                                         {% endfor %}
