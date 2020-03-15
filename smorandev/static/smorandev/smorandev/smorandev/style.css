@@ -1,0 +1,64 @@
+html, body {
+    background: lightgrey;
+    height: 100%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 75rem;
+}
+
+.nav-container {
+    background: orange;
+    border-radius: 0 0 0.25rem 0.25rem;
+    color: white;
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff2d9;
+}
+
+.nav > li > a:hover {
+    color: white;
+}
+
+.card-body {
+    background: #e9ecef;
+}
+
+.list-group-item {
+    background: #e9ecef;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+.footer-container {
+    text-align: center;
+    border-radius: 0.25rem 0.25rem 0 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    background: orange;
+    color: white;
+}
+
+.footer-container > p {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.footer-container > a{
+    margin-bottom: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    text-align: center;
+}

@@ -127,6 +127,8 @@ X_FRAME_OPTIONS = 'DENY'
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, './smorandev/static/smorandev/')
+STATICFILES_DIRS = [
+]
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url

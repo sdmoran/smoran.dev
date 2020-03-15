@@ -1,8 +1,10 @@
 {% extends 'smorandev/base.html' %}
 {% load static %}
 {% load dat_files %}
+{% load markdown_extras %}
 
 {% block content %}
+{{ project.project.technologies | markdown | safe}}
     <br>
     <div class="container">
         <div class="col sm" style="color: black;">
@@ -11,8 +13,14 @@
                 <p><a href="{{ project.github }}">GitHub Repository</a></p>
             {% endif %}
             <p>
-                {{ project.project_detail|linebreaks }}
+                {% if project.markdown %}
+                {{ project.project_detail | markdown | safe}}
+                {% else %}
+                {{ project.project_detail | linebreaks }}
+                {% endif %}
             </p>
+
+
             <h5>Technologies</h5>
             <p>{{ project.technologies }}</p>
             {% if project.webgl_path %}

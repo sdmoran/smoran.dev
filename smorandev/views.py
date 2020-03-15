@@ -2,7 +2,7 @@ from django.http import FileResponse, Http404
 from django.shortcuts import render
 from django.views import generic
 from django.conf import settings
-from django.contrib.staticfiles.templatetags.staticfiles import static
+from django.templatetags.static import static
 import random
 import os
 

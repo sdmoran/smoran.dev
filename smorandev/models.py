@@ -9,6 +9,7 @@ class Project(models.Model):
     github = models.URLField(verbose_name="Github Link", default=None, blank=True, null=True)
     blurb = models.TextField(verbose_name="Blurb", default="Sample text")
     technologies = models.TextField(default="Python, probably")
+    markdown = models.BooleanField(default=False)
     image = models.TextField(verbose_name="Image Link", default=DEFAULT_LINK)
     image_size = models.TextField(default="col-md-4")
     webgl_path = models.TextField(default=None, blank=True, null=True)  # Path in static/ for projects that use WebGL

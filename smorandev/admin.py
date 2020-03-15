@@ -5,7 +5,7 @@ from .models import Project
 class ProjectAdmin(admin.ModelAdmin):
     # Removes slug field from visibility in admin view.
     fieldsets = [
-        (None, {'fields': ('project_name', 'project_detail', 'github', 'blurb', 'technologies', 'image', 'image_size', 'webgl_path',
+        (None, {'fields': ('project_name', 'project_detail', 'github', 'blurb', 'markdown', 'technologies', 'image', 'image_size', 'webgl_path',
                            'webgl_fshader', 'webgl_vshader')}),
         ]
 
